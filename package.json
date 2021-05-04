@@ -4,14 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon -x npm run test",
-    "test": "jest"
+    "start": "nodemon -x npm run test ",
+    "test": "jest || true"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "jest": "^24.8.0",
-    "moment": "^2.24.0",
+    "moment": "^2.29.1",
     "nodemon": "^1.19.1"
   }
 }
